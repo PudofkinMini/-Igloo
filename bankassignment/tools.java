@@ -1,6 +1,7 @@
+package bankassignment;
 import java.util.*;
 import java.io.*;
-class tools{
+public class tools{
 	public static double takeNum(){
 		Scanner scan = new Scanner(System.in);
 		while (true) {
@@ -29,9 +30,5 @@ class tools{
 				}
 			}
 		}
-	}
-	public static void main(String[] args){
-		System.out.println(takeString());
-		System.out.println(takeNum());
 	}
 }
