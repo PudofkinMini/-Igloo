@@ -31,4 +31,16 @@ public class tools{
 			}
 		}
 	}
+	public static String takeTwo(String A, String B){
+		Scanner scan = new Scanner(System.in);
+		while (true){
+			String string = scan.nextLine();
+			if (string.equalsIgnoreCase(A)){
+				return A;
+			} else if (string.equalsIgnoreCase(B)){
+				return B;
+			}
+			System.out.println("This is not an option, enter either " + A + " or " + B);
+		}
+	}
 }
